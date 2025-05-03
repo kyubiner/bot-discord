@@ -53,7 +53,7 @@ client.on('messageCreate', (message) => {
         return;
     }
 
-    if (message.content === 'hai'|| 'Hai') {
+    if (message.content === 'hai') {
         message.reply('hai juga bang 👋');
     }
 });
